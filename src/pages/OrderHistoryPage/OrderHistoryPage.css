@@ -1,0 +1,67 @@
+.OrderHistory {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.OrderHistory .oh-date {
+    padding-inline: 1rem;
+}
+
+.OrderHistory .oh-date > span {
+    font-weight: 800;
+    color: rgb(253, 251, 247);
+    font-size: x-large;
+}
+
+.OrderHistory .oh-order {
+    border: 5px solid rgb(243, 131, 4);
+    max-width: 24rem;
+    height: fit-content;
+    overflow-y: auto;
+    border-radius: 15px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.OrderHistory .oh-li{
+    padding: 1rem;
+    border-bottom: 1px solid rgb(17, 106, 221);
+}
+
+.OrderHistory .oh-lineItems {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    color: orange;
+    font-size: x-large;
+    
+}
+
+.OrderHistory .oh-liPrice {
+    padding-top: .5rem;
+    display: flex;
+    gap: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+
+.OrderHistory .oh-extPrice {
+    margin-left: auto;
+}
+
+.OrderHistory .oh-total {
+    margin-top: .5rem;
+    margin-left: auto;
+    padding-inline: 1rem;
+    font-weight: 800;
+    color: orange;
+}
+
+h1 {
+    background-color: rgb(242, 242, 252);
+    color: orange;
+}
+

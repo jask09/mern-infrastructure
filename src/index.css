@@ -1,13 +1,13 @@
 /* CSS Custom Properties */
 :root {
-  --white: #FFFFFF;
-  --tan-1: #FBF9F6;
-  --tan-2: #E7E2DD;
-  --tan-3: #E2D9D1;
-  --tan-4: #D3C1AE;
-  --orange: #F67F00;
-  --text-light: #968c84;
-  --text-dark: #615954;
+  --white: #3b92da;
+  --tan-1: #e29117;
+  --tan-2: #172d5e;
+  --tan-3: #3b332c;
+  --tan-4: #130447;
+  --orange: rgb(5, 5, 80);
+  --text-light: #ffffff;
+  --text-dark: #faf8f7;
 }
 
 *, *:before, *:after {
@@ -16,19 +16,17 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
+  font-family: - Georgia, 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--tan-4);
   padding: 2vmin;
   height: 100vh;
+  background-color: #0e88ec;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #root {
@@ -101,6 +99,7 @@ label {
   font-size: 2vmin;
   display: flex;
   align-items: center;
+  color: #172d5e;
 }
 
 input {
@@ -111,6 +110,7 @@ input {
   color: var(--text-dark);
   background-image: none !important; /* prevent lastpass */
   outline: none;
+  color: #3b332c;
 }
 
 input:focus {
